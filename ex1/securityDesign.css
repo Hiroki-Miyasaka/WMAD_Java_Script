@@ -141,7 +141,19 @@ main {
 }
 
 .image {
+    position: relative;
     margin-top: 105px;
     text-align: center;
+}
+
+.image .image2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.image .image2:hover {
+    display: block;
 }
 
