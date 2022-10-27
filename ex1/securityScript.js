@@ -1,4 +1,4 @@
-var sectionOneTitle = "<h3>closed-circui</h3>"
-var sectionOneDescription = "<p>Closed-circuit television (CCTV), also known as video surveillance, is the use</p>"
-document.write(sectionOneTitle)
-document.write(sectionOneDescription)
+var sectionFourTitle = "<h2>Application</h2>"
+// var sectionFourDescription = "<p>Closed-circuit television was used.</p>"
+document.write(sectionFourTitle)
+// document.write(sectionFourDescription)
