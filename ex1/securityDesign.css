@@ -30,6 +30,15 @@ header {
     line-height: 19px;
 }
 
+.menu a:hover {
+    color: #6F513F;
+    text-decoration: underline;
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
 .main_title {
     margin-top: 225px;
     margin-left: 85px;
@@ -78,6 +87,10 @@ main {
     font-weight: 400;
     font-size: 16px;
     line-height: 122.8%;
+}
+
+.blue {
+    color: #3F677E;
 }
 
 .image {
