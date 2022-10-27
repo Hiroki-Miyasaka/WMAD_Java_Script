@@ -54,6 +54,34 @@ main {
 }
 
 .right {
-    margin-top: 62px;
+}
+
+.title {
+    margin-top: 65px;
+}
+
+.title h2 {
+    color: #6093AF;
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.explain {
+    margin-top: 31px;
+}
+
+.explain p {
+    color: #000000;
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 122.8%;
+}
+
+.image {
+    margin-top: 105px;
+    text-align: center;
 }
 
