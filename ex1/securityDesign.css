@@ -60,9 +60,56 @@ main {
 
 .left {
     margin-top: 20px;
+    width: 25%;
+}
+
+.camera {
+    position: relative;
+}
+
+.camera .camera2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.left .camera .camera2:hover {
+    opacity: 1;
+}
+
+.left .camera .camera1:hover {
+    z-index: -1;
+}
+
+.left .camera .camera2:hover~.navi  {
+    opacity: 1;
+} 
+
+.navi {
+    opacity: 0;
+}
+
+.navi ul {
+    padding: 0;
+    list-style: none;
+    background: #D9E4EA;
+    border-radius: 9px;
+    width: fit-content;
+}
+
+.navi li {
+    color: #6093AF;
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 20px 17px;
 }
 
 .right {
+    width: 75%;
 }
 
 .title {
