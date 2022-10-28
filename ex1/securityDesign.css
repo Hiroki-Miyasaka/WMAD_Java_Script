@@ -79,9 +79,9 @@ main {
     opacity: 1;
 }
 
-.left .camera .camera1:hover {
+/* .left .camera .camera1:hover {
     z-index: -1;
-}
+} */
 
 .left .camera .camera2:hover~.navi  {
     opacity: 1;
@@ -148,12 +148,12 @@ main {
 
 .image .image2 {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -10px;
+    left: -10px;
     display: none;
 }
 
-.image .image2:hover {
+.image .image1:hover~.image2 {
     display: block;
 }
 
