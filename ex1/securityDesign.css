@@ -67,23 +67,11 @@ main {
     position: relative;
 }
 
-.camera .camera2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: 0.5s;
+.left .camera .camera1:hover {
+    content: url('./images/camera2.png');
 }
 
-.left .camera .camera2:hover {
-    opacity: 1;
-}  
-
-/* .left .camera .camera1:hover~.camera2 {
-    opacity: 1;
-}  */
-
-.left .camera .camera2:hover~.navi  {
+.left .camera .camera1:hover~.navi  {
     opacity: 1;
 } 
 
@@ -141,19 +129,15 @@ main {
 }
 
 .image {
-    position: relative;
     margin-top: 105px;
     text-align: center;
 }
 
 .image .image2 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    display: none; 
+    opacity: 0.3; 
 }
 
-.image .image1:hover~.image2 {
-    display: block; 
+.image .image2:hover{
+    opacity: 1; 
 }
 
