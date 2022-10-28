@@ -75,13 +75,13 @@ main {
     transition: 0.5s;
 }
 
-.left .camera .camera2:hover {
+.left .camera .camera1:hover~.left .camera .camera2 {
     opacity: 1;
 }
 
 /* .left .camera .camera1:hover {
-    z-index: -1;
-} */
+    opacity: 0;
+}  */
 
 .left .camera .camera2:hover~.navi  {
     opacity: 1;
