@@ -95,7 +95,15 @@ footer p {
     padding-bottom: 20px;
 }
 
+.icon {
+    position: relative;
+}
 
+.icon i {
+    position: absolute;
+    top: 80px;
+    right: 50px;
+}
 @font-face {
     font-family: 'M PLUS Code Latin';
     src: url(./MPLUSCodeLatin-VariableFont_wdth\,wght.ttf);
