@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative; 
+}
+
+.header_image{
+}
+
+.header_image img {
+    width: 100%;
+}
+
+.header_name {
+    position: absolute;
+    top: 400px;
+    right: 80px;
+}
+
+.header_name h1 {
+    color: #FFFFFF;
+    font-family: 'M PLUS Code Latin';
+    font-weight: 400;
+    font-size: 128px;
+    line-height: 158px;
+}
+
+.scroll_down {
+    position: absolute;
+    top: 800px;
+    right: 80px;
+}
+
+.scroll_down p {
+    font-family: 'M PLUS Code Latin';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+}
+
+main {
+    padding: 0 30px 150px 30px;
+}
+
+.title {
+    margin-top: 110px;
+    background-color: #F1F1F1; 
+    width: 20%;
+}
+
+.title h2 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 7px;
+}
+
+.explain {
+    margin-top: 30px;
+}
+
+.explain p {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135.69%;
+}
+
+.images_area {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.images_area img {
+}
+
+footer {
+    background-color: #F1F1F1;
+    text-align: center;
+}
+
+footer p {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 135.69%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+@font-face {
+    font-family: 'M PLUS Code Latin';
+    src: url(./MPLUSCodeLatin-VariableFont_wdth\,wght.ttf);
+}
