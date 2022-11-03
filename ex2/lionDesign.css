@@ -72,7 +72,7 @@ main {
     line-height: 135.69%;
 }
 
-.images_area {
+#images_area {
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
