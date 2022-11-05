@@ -17,3 +17,7 @@
     color: #fff;
 }
 
+
+.bg_light {
+    background-color: var(--second_color);
+}
