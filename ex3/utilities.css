@@ -1,0 +1,19 @@
+.container {
+    max-width: 990px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.bg_primary {
+    background-color: var(--primary_color);
+    color: #fff;
+}
+

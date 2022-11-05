@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Axiforma';
+}
+
+:root {
+    --primary_color:#000000;
+}
+
+h1 {
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 7.5px;
+}
+
+p {
+    padding: 55px 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+img {
+    padding: 88px 0;
+}
+
+
+/* header */
+header {
+    margin: 0;
+    padding: 0;
+}
+
+header img{
+    padding: 0;
+    max-width: 100%;
+}
+
+/* items */
+
+.items {
+    background: linear-gradient(to bottom, #000000 0%, #000000 50%, #000000 100%);
+    color: #FFFFFF;
+    padding: 60px 0;
+}
+
+.items a {
+    padding: 0 42px;
+}
+
+.items .ul {
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+/* outline */
+
+.outline {
+    background-color: var(--primary_color);
+    color: #FFFFFF;
+}
+
+
+
+/* gameplay */
+
