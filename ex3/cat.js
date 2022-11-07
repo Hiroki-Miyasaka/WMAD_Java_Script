@@ -12,3 +12,11 @@
 // let container = document.getElementById(“container”);
 // container.innerHTML = table;
 
+
+let row1 = `<tr>
+<th>Review scores</th>
+<th>Score</th><tr>`;
+
+let row2 = `<tr>
+<td>EGM</td>
+<td>4/5</td><tr>`;
