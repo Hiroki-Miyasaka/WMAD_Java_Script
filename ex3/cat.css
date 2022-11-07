@@ -109,3 +109,29 @@ header img{
 /* development */
 
 /* reception */
+
+.table_area table{
+    max-width: 635spx;
+    margin: auto;
+    text-align: center; 
+    border-spacing: 10px 0px;
+}
+
+.table_area tr {
+    background-color: #314055;
+}
+
+.table_area th {
+    background-color: #000000;
+    padding: 20px 80px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.table_area td {
+    padding: 8px 80px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+}
