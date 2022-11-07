@@ -123,14 +123,14 @@ header img{
 
 .table_area th {
     background-color: #000000;
-    padding: 20px 80px;
+    padding: 20px 80px; 
     font-weight: 400;
     font-size: 18px;
     line-height: 29px;
 }
 
 .table_area td {
-    padding: 8px 80px;
+    padding: 8px 80px; 
     font-weight: 400;
     font-size: 18px;
     line-height: 29px;
