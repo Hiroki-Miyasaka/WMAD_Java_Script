@@ -15,8 +15,56 @@
 
 let row1 = `<tr>
 <th>Review scores</th>
-<th>Score</th><tr>`;
+<th>Score</th>
+<tr>`;
 
 let row2 = `<tr>
 <td>EGM</td>
-<td>4/5</td><tr>`;
+<td>4/5</td>
+<tr>`;
+
+let row3 = `<tr>
+<td>Game Informer</td>
+<td>8/10</td>
+<tr>`;
+
+
+let row4 = `<tr>
+<td>GameSpot</td>
+<td>9/10</td>
+<tr>`;
+
+let row5 = `<tr>
+<td>GamesRadar+</td>
+<td>4.5/5</td>
+<tr>`;
+
+let row6 = `<tr>
+<td>IGN</td>
+<td>8/10</td>
+<tr>`;
+
+let row7 = `<tr>
+<td>Jeuxvideo.com</td>
+<td>15/20</td>
+<tr>`;
+
+let row8 = `<tr>
+<td>PC Gamer(US)</td>
+<td>82/100</td>
+<tr>`;
+
+let row9 = `<tr>
+<td>PCGamesN</td>
+<td>9/10</td>
+<tr>`;
+
+let row10 = `<tr>
+<td>The Guardian</td>
+<td>5/5</td>
+<tr>`;
+
+let row11 = `<tr>
+<td>Video Games Chronicle</td>
+<td>5/5</td>
+<tr>`;
