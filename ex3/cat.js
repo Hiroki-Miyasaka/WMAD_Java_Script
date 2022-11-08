@@ -69,7 +69,9 @@ let row11 = `<tr>
 <td>5/5</td>
 <tr>`;
 
-let table = `<table>${row1}${row2}${row3}${row4}${row5}${row6}${row7}${row8}${row9}${row10}${row11}</table>`;
+let colTag = `<col><col><col><col><col><col><col><col><col><col><col>`
+
+let table = `<table>${colTag}${row1}${row2}${row3}${row4}${row5}${row6}${row7}${row8}${row9}${row10}${row11}</table>`;
 
 let tableArea = document.getElementById("table_area");
 

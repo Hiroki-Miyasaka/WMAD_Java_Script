@@ -118,7 +118,7 @@ header img{
 }
 
 .table_area tr {
-    background-color: #314055;
+    /* background-color: #314055; */
 }
 
 .table_area th {
@@ -134,4 +134,12 @@ header img{
     font-weight: 400;
     font-size: 18px;
     line-height: 29px;
+}
+
+.table_area col:nth-child(2n+1) {
+    background-color: #314055;
+}
+
+.table_area col:nth-child(2n) {
+    background-color: #384C68;
 }
