@@ -136,10 +136,10 @@ header img{
     line-height: 29px;
 }
 
-.table_area col:nth-child(2n+1) {
+.table_area tr:nth-child(2n+1) {
     background-color: #314055;
 }
 
-.table_area col:nth-child(2n) {
+.table_area tr:nth-child(2n) {
     background-color: #384C68;
 }
