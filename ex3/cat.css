@@ -110,10 +110,10 @@ header img{
 
 /* reception */
 
-.table_area table{
-    max-width: 635spx;
+.table_area table {
+    max-width: 635px; 
     margin: auto;
-    text-align: center; 
+    text-align: center;  
     border-spacing: 10px 0px;
 }
 
@@ -136,10 +136,10 @@ header img{
     line-height: 29px;
 }
 
-.table_area tr:nth-child(2n+1) {
+.table_area tr:nth-child(odd) {
     background-color: #314055;
 }
 
-.table_area tr:nth-child(2n) {
+.table_area tr:nth-child(even) {
     background-color: #384C68;
 }
