@@ -72,10 +72,14 @@ img {
 header {
     margin: 0;
     padding: 0;
+    height: 80vh; 
 }
 
 header img{
     margin: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
 }
 
 /* items */
@@ -113,12 +117,13 @@ header img{
 .table_area table {
     max-width: 635px; 
     margin: auto;
-    text-align: center;  
+    text-align: center; 
     border-spacing: 10px 0px;
 }
 
 .table_area tr {
     /* background-color: #314055; */
+    text-align: left;
 }
 
 .table_area th {
@@ -127,9 +132,11 @@ header img{
     font-weight: 400;
     font-size: 18px;
     line-height: 29px;
+    /* text-align: left; */
 }
 
 .table_area td {
+    /* text-align: left; */
     padding: 8px 80px; 
     font-weight: 400;
     font-size: 18px;
