@@ -5,7 +5,7 @@ const navbar = ["Night", "Sunset", "Genus altostratus (AS)", "Monsoons", "Lightn
 let navbarArea = document.getElementById("navbar_area");
 let nav = ""
 navbar.forEach(function(value){
-    nav += `<p>${value}</p>`
+    nav += `<p>${value}</p>`;
 })
 
 navbarArea.innerHTML = nav;
@@ -143,6 +143,45 @@ let mountainEffects = {
 let allTitles = [night, lightning, partyCloudy, haze, sunny, sunset, wind, genusCirrus, genusCirrocumulus, genusAltocumulus, genusAltostratus, rain, drizzle, polarDeserts, rainforests, monsoons, cloudFormation, mountainEffects];
 
 let climateArea = document.getElementById("climate_area");
+
+allTitles.forEach((value) => {
+    
+})
+
+
+function createIcon(value){
+    let icon = "";
+    if(value.icon != ""){
+        icon += `<img src=${value.icon} alt=${value.title}>`;
+    }
+    return icon; 
+}
+
+function createTitle(value){
+    let title = "";
+    if(value.title != ""){
+        title += `<h2>${value.title}</h2>`;
+    }
+    return title;
+}
+
+function createDescription(value){
+    let description = "";
+    if(value.description != ""){
+        description += `<p>${value.description}</p>`;
+    }
+    return description;
+}
+
+function createImages(value){
+    let images = "";
+    if(value.images != ""){
+        value.images.forEach((item, index) => {
+            images += `<img src=${item} alt=${value.title + (index+1)}`
+        })
+    }
+    return images;
+}
 
 
 // let evening = {
