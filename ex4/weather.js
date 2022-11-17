@@ -139,6 +139,12 @@ let mountainEffects = {
     images: ""
 };
 
+
+let allTitles = [night, lightning, partyCloudy, haze, sunny, sunset, wind, genusCirrus, genusCirrocumulus, genusAltocumulus, genusAltostratus, rain, drizzle, polarDeserts, rainforests, monsoons, cloudFormation, mountainEffects];
+
+let climateArea = document.getElementById("climate_area");
+
+
 // let evening = {
 //     icon: undefined,
 //     title: "Night",
