@@ -26,3 +26,18 @@ h1 {
     margin-top: 60px;
     margin-bottom: 45px;
 }
+
+/* navbar */
+
+.navbar .container {
+    background: #F1F6FB;
+    border-radius: 19px;
+    padding: 25px;
+}
+
+.navbar p {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}

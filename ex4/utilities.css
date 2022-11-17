@@ -5,6 +5,16 @@
     overflow: auto;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    /* justify-self: center;
+    align-self: center; */
+}
+
 .text_center {
     text-align: center;
 }
