@@ -1,0 +1,10 @@
+.container {
+    max-width: 1265px;
+    margin: 0 auto;
+    padding: 0 auto;
+    overflow: auto;
+}
+
+.text_center {
+    text-align: center;
+}

@@ -1,0 +1,28 @@
+:root {
+    --primary-color: #05496C;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mplus 1p Bold';
+}
+
+
+h1 {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+/* title */
+
+.title h1 {
+    margin-top: 60px;
+    margin-bottom: 45px;
+}
