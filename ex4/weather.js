@@ -183,30 +183,30 @@ function createTitle(value){
 function createDescription(value){
     let description = "";
     if(value.description != ""){
-        description += `<p>${value.description}</p>`;
+        description += `<p class="container">${value.description}</p>`;
     }
     return description;
 }
 
 function createImages(value){
     let images = "";
-    if(value.images != ""){
+    if(value.images.length != 0){
         value.images.forEach((item, index) => {
             images += `<img src=${item} alt=${value.title + (index+1)}>`;
         })
     } else {
         return images;
     }
-    let divImages = `<div class=grid>${images}</div>`;
+    let divImages = `<div class="grid container">${images}</div>`;
     return divImages;
 }
 
 function concatIconAndTitle(icon, title){
     let divIconAndTitle = "";
     if(icon == ""){
-        divIconAndTitle = `<div class=flex>${title}</div>`;
+        divIconAndTitle = `<div class="flex container">${title}</div>`;
     } else {
-        divIconAndTitle = `<div class=flex>${icon}<br>${title}</div>`;
+        divIconAndTitle = `<div class="flex container">${icon}<br>${title}</div>`;
     }
     return divIconAndTitle;
 }
