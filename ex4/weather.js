@@ -31,7 +31,7 @@ let partyCloudy = {
     icon: "./images/climate/party_cloudy.png",
     title: "Party Cloudy",
     description: "In meteorology, a cloud is an aerosol consisting of a visible mass of miniature liquid droplets, frozen crystals, or other particles suspended in the atmosphere of a planetary body or similar space. Water or various other chemicals may compose the droplets and crystals. On Earth, clouds are formed as a result of saturation of the air when it is cooled to its dew point, or when it gains sufficient moisture (usually in the form of water vapor) from an adjacent source to raise the dew point to the ambient temperature.",
-    images: ["./images/party_cloudy1", "./images/party_cloudy2", "./images_party_cloudy3"],
+    images: ["./images/party_cloudy1.png", "./images/party_cloudy2.png", "./images/party_cloudy3.png"],
 };
 
 let haze = {
@@ -157,6 +157,7 @@ allTitles.forEach((value) => {
     // console.log(images);
     let divAll = concatAll(divIconAndTitle, description, images, value.title);
     console.log(divAll);
+    climateArea.innerHTML = divAll;
 })
 
 
