@@ -145,7 +145,18 @@ let allTitles = [night, lightning, partyCloudy, haze, sunny, sunset, wind, genus
 let climateArea = document.getElementById("climate_area");
 
 allTitles.forEach((value) => {
-    
+    let icon = createIcon(value);
+    // console.log(icon);
+    let title = createTitle(value);
+    // console.log(title);
+    let divIconAndTitle = concatIconAndTitle(icon, title);
+    // console.log(divIconAndTitle);
+    let description = createDescription(value);
+    // console.log(description);
+    let images = createImages(value);
+    // console.log(images);
+    let divAll = concatAll(divIconAndTitle, description, images, value.title);
+    console.log(divAll);
 })
 
 
@@ -177,7 +188,7 @@ function createImages(value){
     let images = "";
     if(value.images != ""){
         value.images.forEach((item, index) => {
-            images += `<img src=${item} alt=${value.title + (index+1)}`;
+            images += `<img src=${item} alt=${value.title + (index+1)}>`;
         })
     }
     let divImages = `<div class=grid>${images}</div>`;
@@ -185,8 +196,14 @@ function createImages(value){
 }
 
 function concatIconAndTitle(icon, title){
-    let divFlex = `<div class=flex>${icon}<br>${title}</div>`;
-    return divFlex;
+    let divIconAndTitle = `<div class=flex>${icon}<br>${title}</div>`;
+    return divIconAndTitle;
+}
+
+function concatAll(divIconAndTitle, description, images, title){
+    let lowerTitle = title.toLowerCase();
+    let divAll = `<div class=${lowerTitle} container><br>${divIconAndTitle}<br>${description}<br>${images}<br></div>`;
+    return divAll;
 }
 
 
