@@ -177,10 +177,16 @@ function createImages(value){
     let images = "";
     if(value.images != ""){
         value.images.forEach((item, index) => {
-            images += `<img src=${item} alt=${value.title + (index+1)}`
+            images += `<img src=${item} alt=${value.title + (index+1)}`;
         })
     }
-    return images;
+    let divImages = `<div class=grid>${images}</div>`;
+    return divImages;
+}
+
+function concatIconAndTitle(icon, title){
+    let divFlex = `<div class=flex>${icon}<br>${title}</div>`;
+    return divFlex;
 }
 
 
