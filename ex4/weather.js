@@ -194,6 +194,8 @@ function createImages(value){
         value.images.forEach((item, index) => {
             images += `<img src=${item} alt=${value.title + (index+1)}>`;
         })
+    } else {
+        return images;
     }
     let divImages = `<div class=grid>${images}</div>`;
     return divImages;
@@ -211,7 +213,12 @@ function concatIconAndTitle(icon, title){
 
 function concatAll(divIconAndTitle, description, images, title){
     let lowerTitle = title.toLowerCase();
-    let divAll = `<div class=${lowerTitle}><br>${divIconAndTitle}<br>${description}<br>${images}<br></div>`;
+    let divAll = "";
+    if(images == ""){
+        divAll = `<div class=${lowerTitle}><br>${divIconAndTitle}<br>${description}<br></div>`;
+    } else {
+        divAll = `<div class=${lowerTitle}><br>${divIconAndTitle}<br>${description}<br>${images}<br></div>`;
+    }
     return divAll;
 }
 

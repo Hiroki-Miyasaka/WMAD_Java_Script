@@ -51,11 +51,17 @@ h2 {
 
 /* climate */
 
-.climate {
+
+.climate .flex {
     margin-top: 55px;
 }
 
+.climate p {
+    margin-top: 35px;
+}
+
 .climate .grid {
+    margin-top: 75px;
     grid-template-columns: repeat(3, 1fr);
 }
 
