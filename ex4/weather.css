@@ -20,6 +20,13 @@ h1 {
     line-height: 48px;
 }
 
+h2 {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
 /* title */
 
 .title h1 {
@@ -44,6 +51,19 @@ h1 {
 
 /* climate */
 
+.climate {
+    margin-top: 55px;
+}
+
 .climate .grid {
     grid-template-columns: repeat(3, 1fr);
+}
+
+.climate .grid img {
+    border-radius: 16px;
+}
+
+.climate .grid img:hover {
+    transform: scale(1.1);
+    content: url(./images/party_cloudy1.png);
 }

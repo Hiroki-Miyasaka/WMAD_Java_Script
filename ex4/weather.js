@@ -200,7 +200,12 @@ function createImages(value){
 }
 
 function concatIconAndTitle(icon, title){
-    let divIconAndTitle = `<div class=flex>${icon}<br>${title}</div>`;
+    let divIconAndTitle = "";
+    if(icon == ""){
+        divIconAndTitle = `<div class=flex>${title}</div>`;
+    } else {
+        divIconAndTitle = `<div class=flex>${icon}<br>${title}</div>`;
+    }
     return divIconAndTitle;
 }
 
