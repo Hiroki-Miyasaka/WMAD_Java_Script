@@ -44,3 +44,21 @@ body {
     font-size: 40px;
     line-height: 28px;
 }
+
+form {
+   margin-top: 60px;
+
+}
+
+label {
+    display: block;
+}
+
+input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1.3px solid #FFFFFF;  
+    width: 570px; 
+}
+
