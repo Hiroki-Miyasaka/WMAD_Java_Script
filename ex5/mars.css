@@ -51,14 +51,15 @@ form {
 }
 
 .item {
+    margin: auto;
     margin-top: 50px;
+    max-width: 570px;
     position: relative;
 }
 
 label {
     display: block;
     position: absolute;
-    left: 140px;
     top: -10px;
     color: #FFFFFF;
     font-family: 'Montserrat';
@@ -72,7 +73,7 @@ input {
     border: none;
     outline: none;
     border-bottom: 1.3px solid #FFFFFF;  
-    width: 570px; 
+    width: 570px;  
     color: #FFFFFF;
     font-family: 'Montserrat';
     font-weight: 400;
