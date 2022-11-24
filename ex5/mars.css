@@ -80,7 +80,16 @@ input {
     line-height: 28px;
 }
 
-form .item input:focus~label{
+form .item input:focus~label,
+form .item input:valid~label{
     transform: translate(0, -20px);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+}
+
+.item #destination {
+    border: 1px solid #BBBFC5;
+    border-radius: 8px;
 }
 
