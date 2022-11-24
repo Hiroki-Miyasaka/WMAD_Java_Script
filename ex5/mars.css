@@ -18,8 +18,8 @@ body {
 
 .mars img{
     position: absolute;
-    top: 125px;
-    left: 130px;
+    top: -10px;
+    left: 90px;
     z-index: -1;
     max-width: 234px;
     max-height: 234px;
@@ -30,6 +30,8 @@ body {
 .card {
     margin: auto;
     margin-top: 135px;
+    margin-bottom: 135px;
+    padding-bottom: 30px;
     background: rgba(255, 255, 255, 0.3);
     border-radius: 23px;
     max-width: 845px;
@@ -44,6 +46,8 @@ body {
     font-size: 40px;
     line-height: 28px;
 }
+
+/* name family age */
 
 form {
    margin-top: 60px;
@@ -68,8 +72,8 @@ label {
     line-height: 28px;
 }
 
-
 input {
+    font-family: 'Montserrat';
     background-color: transparent;
     border: none;
     outline: none;
@@ -90,13 +94,42 @@ form .item input:valid~label{
     line-height: 28px;
 }
 
-.item #destination {
+/* destination */
+
+.destination {
+    max-width: 570px;
+    margin: auto;
+    margin-top: 70px;
+    position: relative;
+}
+
+.destination label {
+    top: -30px;
+}
+    
+select {    
+    font-family: 'Montserrat';
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 28px;
+    background-color: transparent;
+    outline: none;
     border: 1px solid #BBBFC5;
     border-radius: 8px;
+    width: 570px;
+    padding: 11px;
 }
 
-select option {
-    background-color: transparent;
-    color: #FFFFFF;
-}
+/* button */
 
+#submit_button {
+    color: #1C1036;
+    margin-top: 50px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 13px;
+    max-width: 240px;
+    padding-top: 12px;
+    padding-bottom: 12px; 
+}

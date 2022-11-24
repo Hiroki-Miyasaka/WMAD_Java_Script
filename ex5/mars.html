@@ -18,28 +18,26 @@
 
         <form method="post">
             <div class="item">
-                <!-- <label for="name">Name</label> -->
                 <input type="text" name="yourname" id="name" required>
                 <label for="name">Name</label>
             </div>
             <div class="item">
-                <!-- <label for="family">Family</label> -->
                 <input type="text" name="yourfamily" id="family" required>
                 <label for="family">Family</label>
             </div>
             <div class="item">
-                <!-- <label for="age">Age</label> -->
-                <input type="number" max="200" name="yourage" id="age" require>
+                <input type="number" max="200" name="yourage" id="age" required>
                 <label for="age">Age</label>
             </div>
-            <div class="item">
-                <input type="text" name="yourdestination" id="destination" required>
+            <div class="destination">
                 <label for="destination">Destination</label>
+                <select id="destination_select">
+                    
+                </select>
             </div>
-
-            
+            <input type="submit" value="Submit" id="submit_button">           
         </form>
     </div>
-    <!-- <script src="./mars.js"></script> -->
+    <script src="./mars.js"></script> 
 </body>
 </html>

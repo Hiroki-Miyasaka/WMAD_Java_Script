@@ -1,9 +1,11 @@
-let container = document.getElementById("age_select")
+// destination 
+
+let container = document.getElementById("destination_select")
 var allTheOptions = "";
+let planets = ["Mars", "Jupiter", "Mercury"];
 
+planets.forEach(value => {
+    allTheOptions += `<option>${value}</option>`;
+});
 
-for (let i = 0; i<100; i++) { 
-    allTheOptions += `<option>${i+1}</option>`;
-}
-console.log(allTheOptions);
 container.innerHTML = allTheOptions;
