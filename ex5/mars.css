@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./images/background.png);
+    height: 100%;
+    background-size: auto; 
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/* mars */
+
+.mars img{
+    position: absolute;
+    top: 125px;
+    left: 130px;
+    z-index: -1;
+    max-width: 234px;
+    max-height: 234px;
+}
+
+/* card */
+
+.card {
+    margin: auto;
+    margin-top: 135px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 23px;
+    max-width: 845px;
+    text-align: center;
+}
+
+.card h1 {
+    font-family: 'Montserrat';
+    padding-top: 95px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 28px;
+}
